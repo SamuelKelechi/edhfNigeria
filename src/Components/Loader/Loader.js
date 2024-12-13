@@ -6,7 +6,7 @@ const Loader = ({ type, color }) => (
     <>
     <Main>
         <div>EDHF</div>
-        <ReactLoading type={"bars"} color={"#003399"} height={100} width={100} /> 
+        <ReactLoading type={"balls"} color={"#003399"} height={100} width={100} /> 
         
     </Main>
     </>
