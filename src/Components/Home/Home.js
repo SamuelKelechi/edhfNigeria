@@ -8,6 +8,7 @@ import OurStory from './OurStory/OurStory';
 import { Slide } from './Slider/Slide';
 import Support from './Support/Support';
 import { Volunteer } from './Volunteer/Volunteer';
+import Projects from './Projects/Projects';
 
 const Home = () => {
   return (
@@ -19,6 +20,8 @@ const Home = () => {
         <OurImpact />
         <br/>
         <OurStory />
+        <br/>
+        <Projects />
         <br/>
         <Datas />
         <br/>
