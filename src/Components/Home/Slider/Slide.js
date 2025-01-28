@@ -5,7 +5,6 @@ import { Carousel } from 'antd';
 import { Button } from "@mui/material";
 import {Link} from 'react-router-dom'
 
-
 export const Slide = () => { 
 
   return (

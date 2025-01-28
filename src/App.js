@@ -20,6 +20,7 @@ import BlogDetails from "./Components/BlogDetail/BlogDetails";
 import Admin from "./Components/Admin/Admin";
 import Loader from "./Components/Loader/Loader";
 import Gallery from './Components/Gallery/Gallery';
+import ProjectDetails from './Components/Home/ProjectDetails/ProjectDetails';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
             <Header/>  
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/project/:id" element={<ProjectDetails />} />
               <Route path="/about" element={<About />} />
               <Route path='/contact' element={<Contact/>} />
               <Route path='/blog' element={<Blog/>} />
