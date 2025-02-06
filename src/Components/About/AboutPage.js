@@ -135,6 +135,10 @@ const LandingPage = styled.div`
     width:100%;
     height:400px;
     background-color:blue;
+
+    @media screen and (max-width:650px){
+        margin-top: 70px;
+    }
 `
 
 const Content = styled.div`

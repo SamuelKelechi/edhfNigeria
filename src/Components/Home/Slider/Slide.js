@@ -1,9 +1,9 @@
 import React from "react";
 import styled from 'styled-components';
-
 import { Carousel } from 'antd';
 import { Button } from "@mui/material";
 import {Link} from 'react-router-dom'
+import Slider from '../../Images/slider.jpeg'
 
 export const Slide = () => { 
 
@@ -26,6 +26,9 @@ export const Slide = () => {
 					</MyStyled>
           <MyStyled>
 						<SliderImage src="https://firebasestorage.googleapis.com/v0/b/edhf-nigeria.appspot.com/o/Slide6.JPG?alt=media&token=b5c30254-926d-4133-8565-12b4a5d3329b" />
+					</MyStyled>
+          <MyStyled>
+						<SliderImage src={Slider} />
 					</MyStyled>
 				</Mylider>
 			</Wrapper>
